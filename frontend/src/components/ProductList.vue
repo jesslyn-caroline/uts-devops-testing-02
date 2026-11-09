@@ -2,7 +2,7 @@
   <div class="flex flex-col space-y-1.5">
     <router-link
       to="/create"
-      class="w-fit h-fit px-4 py-2 rounded-md bg-emerald-300 text-white text-md font-semibold"
+      class="w-fit h-fit px-4 py-2 rounded-md bg-emerald-500 text-white text-md font-semibold"
       >Add New</router-link
     >
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -34,7 +34,7 @@
             <td class="px-6 py-4 space-x-2.5">
               <router-link
                 :to="`/update/${item.product_id}`"
-                class="w-fit h-fit px-4 py-2 rounded-md bg-emerald-300 text-white text-md font-semibold"
+                class="w-fit h-fit px-4 py-2 rounded-md bg-emerald-500 text-white text-md font-semibold"
                 >Edit</router-link
               >
             </td>
